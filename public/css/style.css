@@ -1,0 +1,155 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Sen', sans-serif;
+  font-size: 62.5%;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 3rem auto;
+  border: 2px solid #000;
+  border-right: 6px solid #000;
+  border-left: 3px solid #000;
+  padding: 0.1rem;
+}
+.container {
+  border: 2px solid #000;
+  padding: 4rem;
+}
+.header {
+  text-align: center;
+}
+.header p {
+  font-size: 1.8rem;
+}
+.header h1 {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+}
+.header .tel {
+  text-decoration: underline;
+  color: blue;
+}
+.certifications {
+  margin: 4rem 0 6rem;
+}
+.certifications .title,
+.schools .title,
+.skills .title,
+.experiences .title,
+.profiles .title,
+.partners .title,
+.contact .title {
+  text-align: center;
+  font-weight: 900;
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin: 4rem 0;
+  border: 1px solid #000;
+  border-bottom: 3px solid #000;
+  border-right: 3px solid #000;
+  padding: 0.5rem;
+}
+
+.certification,
+.school-name,
+.experience-type {
+  display: flex;
+  justify-content: space-between;
+}
+.certification span {
+  font-weight: bold;
+}
+
+.certification:not(:last-of-type),
+.school:not(:last-of-type),
+.experience:not(:last-of-type) {
+  margin-bottom: 2rem;
+}
+
+.certification p,
+.school-name p,
+.skills p,
+.experience p {
+  font-size: 1.8rem;
+}
+
+.school,
+.experience {
+  display: flex;
+  flex-direction: column;
+}
+.school h3 {
+  font-size: 1.8rem;
+}
+
+.profile {
+  font-size: 1.8rem;
+}
+
+.partners__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo__link {
+  display: inline-block;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type='text'],
+input[type='email'] {
+  margin-bottom: 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid #000;
+}
+textarea {
+  border: 1px solid #000;
+  padding: 1rem 1.5rem;
+}
+input[type='submit'] {
+  background-color: #000;
+  color: #fff;
+  padding: 1rem;
+  margin-top: 2rem;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 769px) {
+  .wrapper {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .certifications .title,
+  .schools .title,
+  .skills .title,
+  .experiences .title,
+  .profiles .title {
+    font-size: 1.5rem;
+  }
+  .partners__logos {
+    flex-direction: column;
+  }
+}
