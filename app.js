@@ -50,12 +50,11 @@ app.post('/', (req, res) => {
         res.send('success')
       }
     })
-    // alert(info.messageId)
   
 })
 
-const port = process.env.PORT || 1234
 
-app.listen(port, '127.0.0.1', () => { 
-  console.log(`Server running on port ${port}`);
+
+app.listen(process.env.PORT || 5000, '0.0.0.0', () => { 
+  console.log(`Server running on port ${process.env.PORT}`);
 })
