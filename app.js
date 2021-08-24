@@ -18,7 +18,7 @@ app.get('/', (req, res) => {
 
 app.post('/', (req, res) => {
 
-  console.log(req.body);
+  // console.log(req.body);
 
   
     // 1) create a transporter
@@ -37,7 +37,6 @@ app.post('/', (req, res) => {
       to: 'debowale01@gmail.com',
       subject: `Contact Message From ${req.body.name}`,
       text: req.body.message,
-      // html:
     };
   
     //3 send the mail

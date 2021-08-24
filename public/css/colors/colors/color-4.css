@@ -1,0 +1,90 @@
+.page-title h2{
+	color:#663399;
+}
+
+.social-icons a:hover{
+	color:#663399;
+ 	border: solid 1px #663399;
+}
+
+ul.top-menu li a:hover{
+	color:#663399;
+}
+
+ul.top-menu li .selected{
+	color:#663399;
+}
+
+.skill-list .progress{
+    border: 1px solid #663399;
+}
+
+.skill-list .progress .percentage {
+    background-color: #663399;
+}
+
+.services .service i{
+    background: #663399;
+}
+
+.rounded-icon i{
+	background:#663399;
+}
+
+.info-title::after {
+    background: #663399;
+}
+
+.info-date{
+    color: #663399;
+}
+
+.select-cat{
+	color:#663399 !important;
+}
+
+.blog-post .post-info{
+	color:#663399;
+}
+
+.but-big{
+	background-color: #663399;
+}
+
+.social-icons a:hover{
+	color:#663399;
+ 	border: solid 1px #663399;
+}
+
+ul.top-menu li a:hover{
+	color:#663399;
+	transition:all ease 0.2s;
+}
+
+ul.top-menu li .selected{
+	color:#663399;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

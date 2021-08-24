@@ -1,8 +1,5 @@
-// const nodemailer = require('nodemailer')
-// import nodemailer from 'nodemailer'
-
 //send Email
-const contactForm = document.getElementById('contact-form');
+const contactForm = document.querySelector('.contact-form');
 const senderName = document.getElementById('name');
 const senderEmail = document.getElementById('email');
 const message = document.getElementById('message');
